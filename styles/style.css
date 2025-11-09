@@ -52,6 +52,7 @@ ol {
 }
 
 .content {
+  margin: auto;
   display: flex;
   justify-self:center;
   align-self: center;
@@ -76,7 +77,7 @@ ol {
 }
 
 .search-form {
-  height: 54px;
+  padding-bottom: 5px; 
   margin-top: 16px;
   display: flex;
   align-items: start;
@@ -102,6 +103,7 @@ ol {
 }
 
 .content__details {
+  padding-bottom: 5px;
   max-width: 399px;
   height: 100%;
   display: flex;
@@ -113,6 +115,7 @@ ol {
   display: flex;
   flex-direction: column;
   gap: 30px;
+  padding-right: 4px;
 }
 
 .content__video-card {
@@ -130,6 +133,8 @@ ol {
 .content__video-card-description-container {
   flex-grow: 1;
   overflow: hidden;
+  line-height: 170%;
+
 }
 
 .search-form__fieldset-title {
@@ -175,10 +180,6 @@ ol {
   line-height: 16.2px;
   font-family: 'Fira Sans Condensed',sans-serif; 
   font-size: 18px;
-}
-
-.content__video-card-description-container {
-  line-height: 170%;
 }
 
 .visually-hidden {
